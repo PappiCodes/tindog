@@ -113,6 +113,7 @@ p {
 /* Testimonials */
 #testimonials {
 	background-color: #ef8172;
+	position: relative;
 }
 
 .testimonial-image {
@@ -158,7 +159,7 @@ p {
 
 /* Media Query */
 @media (max-width: 1028px) {
-	#title {
+	#title .container-fluid {
 		text-align: center;
 	}
 
